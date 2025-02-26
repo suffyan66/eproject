@@ -1,0 +1,10 @@
+.nav_heading img{
+    height:50px ;
+}
+.navbar{
+    background-color: rgb(135, 245, 66);
+    height: 100px;
+    width: 100%;
+    border: 2px solid black;
+    
+}
