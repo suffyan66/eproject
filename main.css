@@ -1,15 +1,23 @@
-.navbar{
+
+body{
+    background-color: rgb(252, 219, 3);
+    height: 100%;
+    width: 100%;
+}.navbar1{
     display:flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(84, 168, 50);
-    height: 80px;
+    margin-top: 20px;
+   
 }
 .ancher a{
     text-decoration: none;
     color:black;
-    border: 2px solid black;
-    padding: 10px;
+    border: 2px solid rgb(52, 235, 58);
+    padding: 10px 15px 10px 15px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 
 }
 #menu{
@@ -29,9 +37,33 @@
    margin-top: 100px;
    border-radius: 10px;
 }
-
-
-
+.nav_heading img{
+    height: 100px;
+    width: 100px;
+}
+.main{   background-color: rgb(252, 219, 3);
+    height: 100%;
+    width: 100%;}
+    .one img{
+        height: 300px;
+        width: 300px;
+        border-radius: 5px;
+    }
+.one{
+  
+    align-items: center;
+}
+.onee img{
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+}
+.mg{
+    margin-top: 100px;
+}
+.catering_heading{
+    text-align: center;
+}
 
 
 
