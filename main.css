@@ -1,4 +1,201 @@
-.nav_heading img{
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(84, 168, 50);
+    height: 80px;
+}
+.ancher a{
+    text-decoration: none;
+    color:black;
+    border: 2px solid black;
+    padding: 10px;
+
+}
+#menu{
+    text-decoration: none;
+    border: none;
+    background: transparent;
+
+
+
+}
+.main_img{
+   height: 600px;
+   width: 95%;
+   justify-content: center;
+   align-items: center;
+   margin-left: 30px;
+   margin-top: 100px;
+   border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3.nav_heading img{
     height:50px ;
 }
 .navbar{
