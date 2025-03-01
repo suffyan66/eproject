@@ -1,9 +1,10 @@
 
-body{
+/* body{
     background-color: rgb(252, 219, 3);
     height: 100%;
     width: 100%;
-}.navbar1{
+} */
+.navbar1{
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -41,9 +42,9 @@ body{
     height: 100px;
     width: 100px;
 }
-.main{   background-color: rgb(252, 219, 3);
+/* .main{   background-color: rgb(252, 219, 3);
     height: 100%;
-    width: 100%;}
+    width: 100%;} */
     .one img{
         height: 300px;
         width: 300px;
@@ -62,6 +63,13 @@ body{
     margin-top: 100px;
 }
 .catering_heading{
+    text-align: center;
+}
+.catering_menu{
+ 
+    text-decoration:underline;
+    margin-bottom: 20px;
+    margin-top: 20px;
     text-align: center;
 }
 
