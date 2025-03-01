@@ -4,7 +4,7 @@
     height: 100%;
     width: 100%;
 } */
-.navbar1{
+/* .navbar1{
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -45,7 +45,7 @@
 /* .main{   background-color: rgb(252, 219, 3);
     height: 100%;
     width: 100%;} */
-    .one img{
+    /* .one img{
         height: 300px;
         width: 300px;
         border-radius: 5px;
@@ -71,6 +71,109 @@
     margin-bottom: 20px;
     margin-top: 20px;
     text-align: center;
+} */body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #e0f7e6; /* Light green background */
+}
+
+/* Navbar styles */
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4CAF50; /* Green background for the navbar */
+}
+
+.nav_heading img {
+    height: 80px;
+    width: 80px;
+}
+
+.ancher a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #388E3C; /* Darker green background for links */
+    border-radius: 5px;
+}
+
+.ancher a:hover {
+    background-color: #45a049; /* Hover effect */
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .bar {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+}
+
+/* Container styles */
+.container {
+    margin: 50px;
+}
+
+.mg {
+    margin-top: 50px;
+}
+
+.one img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.one {
+    text-align: center;
+}
+
+.catering_heading {
+    text-align: center;
+    font-size: 32px;
+    color: #388E3C;
+}
+
+/* Footer */
+footer {
+    background-color: #388E3C;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px;
+}
+
+/* Mobile Styles (Hamburger Menu and Responsive Layout) */
+@media (max-width: 768px) {
+    .ancher {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .navbar1.active .ancher {
+        display: flex;
+    }
 }
 
 
@@ -235,7 +338,8 @@
 
 
 
-3.nav_heading img{
+
+.nav_heading img{
     height:50px ;
 }
 .navbar{
@@ -244,4 +348,4 @@
     width: 100%;
     border: 2px solid black;
     
-}
+} */
