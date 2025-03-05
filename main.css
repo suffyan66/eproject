@@ -75,21 +75,22 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #e0f7e6; /* Light green background */
+  background-color: rgb(206, 195, 246); /* Light green background */
 }
 
 /* Navbar styles */
 .navbar1 {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
     padding: 20px;
-    background-color: #4CAF50; /* Green background for the navbar */
+    background-color: white; /* Green background for the navbar */
 }
 
 .nav_heading img {
     height: 80px;
     width: 80px;
+    margin-left: 70px;
 }
 
 .ancher a {
@@ -99,6 +100,7 @@
     margin: 0 10px;
     background-color: #388E3C; /* Darker green background for links */
     border-radius: 5px;
+    margin-left: px;
 }
 
 .ancher a:hover {
@@ -131,6 +133,7 @@
 .one img {
     width: 100%;
     border-radius: 8px;
+    height: 250px;
 }
 
 .one {
@@ -142,10 +145,71 @@
     font-size: 32px;
     color: #388E3C;
 }
+.one {
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
 
+.one img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.one:hover img {
+    transform: scale(1.1); /* Image zoom effect */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+}
+.carousel-item img{
+    height: 400px;
+}
+.backpi{
+
+    /* background-image: url("backpic.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+.card_hrading{
+    margin-top: 30px;
+    color: #388E3C;
+}
+.winter img{
+    height:300px ;
+    width:300px;
+    display: block;
+}
+.winter{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.heading_container{
+    text-align: center;
+    margin-top: 30px;
+    color: #388E3C;
+}
+.menu_heading{
+    text-align: center;
+    background-color:#388E3C;
+    color: white;
+}
+.shreks_heading{
+    font-size: 3.5rem;
+    line-height-step: 20px;
+    color: #388E3C;
+}
+.side img{
+    height: 550px;
+}
+/* .marq img{
+    height: 200px; 
+    margin-left: 50px;  
+} */
 /* Footer */
 footer {
-    background-color: #388E3C;
+    background-color:  #388E3C;
     color: white;
     text-align: center;
     padding: 10px;
@@ -156,6 +220,14 @@ footer {
 
 footer p {
     margin: 5px;
+}
+#mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 30px;
 }
 
 /* Mobile Styles (Hamburger Menu and Responsive Layout) */
@@ -175,7 +247,9 @@ footer p {
         display: flex;
     }
 }
-
+.carousel-inner img{
+    width: 80%;
+}
 
 
 
