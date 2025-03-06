@@ -163,13 +163,10 @@
 .carousel-item img{
     height: 400px;
 }
-.backpi{
+/* .backpi {
 
-    /* background-image: url("backpic.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */
-}
+    height: 400px;
+} */
 .card_hrading{
     margin-top: 30px;
     color: #388E3C;
