@@ -193,12 +193,29 @@
     color: white;
 }
 .shreks_heading{
-    font-size: 3.5rem;
+    font-size: 3.8rem;
     line-height-step: 20px;
     color: #388E3C;
+    text-align: center;
 }
 .side img{
     height: 550px;
+}
+.rem1{
+    font-size: 2rem;
+    color: rgb(255,102, 0);
+    margin-top: 40px;
+}
+.main_div img{
+    background-image: url("mock\ tails.jpg");
+    background-position: cover;
+    height: 600px;
+    width: 90%;
+   margin-left: 70px;
+
+}
+.lorem{
+    z-index: +1;
 }
 /* .marq img{
     height: 200px; 
