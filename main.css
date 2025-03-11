@@ -1,77 +1,4 @@
-
-/* body{
-    background-color: rgb(252, 219, 3);
-    height: 100%;
-    width: 100%;
-} */
-/* .navbar1{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 20px;
-   
-}
-.ancher a{
-    text-decoration: none;
-    color:black;
-    border: 2px solid rgb(52, 235, 58);
-    padding: 10px 15px 10px 15px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-
-}
-#menu{
-    text-decoration: none;
-    border: none;
-    background: transparent;
-
-
-
-}
-.main_img{
-   height: 600px;
-   width: 95%;
-   justify-content: center;
-   align-items: center;
-   margin-left: 30px;
-   margin-top: 100px;
-   border-radius: 10px;
-}
-.nav_heading img{
-    height: 100px;
-    width: 100px;
-}
-/* .main{   background-color: rgb(252, 219, 3);
-    height: 100%;
-    width: 100%;} */
-    /* .one img{
-        height: 300px;
-        width: 300px;
-        border-radius: 5px;
-    }
-.one{
-  
-    align-items: center;
-}
-.onee img{
-    height: 300px;
-    width: 300px;
-    border-radius: 5px;
-}
-.mg{
-    margin-top: 100px;
-}
-.catering_heading{
-    text-align: center;
-}
-.catering_menu{
- 
-    text-decoration:underline;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    text-align: center;
-} */body {
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -79,33 +6,7 @@
 }
 
 /* Navbar styles */
-.navbar1 {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: white; /* Green background for the navbar */
-}
 
-.nav_heading img {
-    height: 80px;
-    width: 80px;
-    margin-left: 70px;
-}
-
-.ancher a {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    margin: 0 10px;
-    background-color: #388E3C; /* Darker green background for links */
-    border-radius: 5px;
-    margin-left: px;
-}
-
-.ancher a:hover {
-    background-color: #45a049; /* Hover effect */
-}
 
 /* Hamburger Menu */
 .hamburger {
