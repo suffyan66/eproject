@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  
+<style>
+    </style>
+</head>
+<body>
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Shrek Juices</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gallery</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Fruit Juice</a></li>
+                  <li><a class="dropdown-item" href="#">Vegetables Juice</a></li>
+                  <li><a class="dropdown-item" href="#">Mocktails</a></li>
+                  <li><a class="dropdown-item" href="#">Smoothies</a></li>
+                  <li><a class="dropdown-item" href="#">Protein Shake</a></li>
+                  <li><a class="dropdown-item" href="#">Choclate Juices</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Catering</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">FeedBack</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+       <!-- Navbar End -->
+       <div class="map-container">
+       
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.302956184754!2d67.14949697509363!3d24.88764574416975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33999ec8ecc87%3A0xda9cc5004c86e53f!2sMETRO%20Stargate%20Store%2C%20Karachi!5e0!3m2!1sen!2s!4v1741738918683!5m2!1sen!2s" width="80%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+           
+       </iframe>
+   </div>
+   <div class="container mb-5">
+    <div class="row">
+   <div class="col-6 col-sm-6 col-md-6 col-lg-6 ms- mt-5 ">
+    <img src="images/b8.jpg" width="450px" height="500px" alt="" id="side_pic">
+</div>
+<!-- next -->
+ <div class="col-6 col-sm-6 col-md-6 col-lg-6 ">
+    
+        <div class="card-body ms- mt-5 ">
+          <h5 class="card-title fs-1">Get in touch</h5>
+          <p class="card-text fs-6">Non consectetur a erat nam at lectus. Orci dapibus ultrices in iaculis. Venenatis lectus magna fringilla purus non. 
+          </p>
+         <form class="main_form">
+            <input type="text" name="name" placeholder="Full Name" required pattern="[a-z A-z]{3,10}" id="name_text">
+            <input type="email" name="email" placeholder="Email" required id="
+            email_text">
+           
+            <textarea name="message" placeholder="Comment" id="comment"></textarea>
+            <label class="custom-checkbox">
+    <input type="checkbox">
+    <span class="checkmark"></span>
+    Save my name, email, and website in this browser.
+</label>
+            <button type="submit">Send</button>
+         </form>
+        </div>
+      
+ </div>
+</div></div>
+     <!-- foter -->
+    <footer>
+      <p>&copy; 2025 Shrek Juice | All Rights Reserved</p>
+      <a  href="mailto:ansarisuffyan@gmail.com" id="mail"><p>Follow us on social media!</p><i class="fa-regular fa-envelope"></i>Email</a>
+      <section class="ancher">
+          <a href="fruits.html">Store Location</a>
+          <a href="vegetables.html">franchising</a>
+          <a href="smoothies.html">Catering</a>
+          <a href="fruits.jpg">Contact</a>
+          <a href="fruits.jpg">feedback</a>
+          <a href="fruits.jpg">About us</a>
+          
+      </section>
+  </footer>
+</body>
+<script src="app.js"></script>
+</html>

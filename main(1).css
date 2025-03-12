@@ -79,19 +79,7 @@
 }
 
 /* Navbar styles */
-.navbar1 {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: white; /* Green background for the navbar */
-}
 
-.nav_heading img {
-    height: 80px;
-    width: 80px;
-    margin-left: 70px;
-}
 
 .ancher a {
     text-decoration: none;

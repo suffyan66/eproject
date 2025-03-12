@@ -16,3 +16,101 @@ font-weight: 500;
     font-size: 28px;
     font-weight: 700;
 }
+.col:hover{
+    box-shadow:rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+
+
+}
+.content1 {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: black; /* Text color */
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+    padding: 20px;
+    /* background: rgba(0, 0, 0, 0.5); Semi-transparent background */
+    border-radius: 10px;
+    height: 300px;
+    width: 500px;
+}
+.content2 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color:black; /* Text color */
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+    padding: 20px;
+    /* background: rgba(0, 0, 0, 0.5); Semi-transparent background */
+    border-radius: 10px;
+    height: 300px;
+    width: 500px;
+}
+
+.content3 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: black; /* Text color */
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
+    padding: 20px;
+    /* background: rgba(0, 0, 0, 0.5); Semi-transparent background */
+    border-radius: 10px;
+    height: 300px;
+    width: 500px;
+}
+
+/* Font style for the first slide */
+.font-style-1 .content {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+/* Font style for the second slide */
+.font-style-2 .content {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Font style for the third slide */
+.font-style-3 .content {
+    font-family: 'Georgia', serif;
+}
+/* Footer */
+footer {
+    background-color:  rgb(236, 234, 236);
+    color:black;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px;
+}
+#mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:black;
+    margin-bottom: 30px;
+}
+.ancher a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}

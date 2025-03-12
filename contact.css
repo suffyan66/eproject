@@ -1,0 +1,131 @@
+nav{
+    background-color: rgb(236, 234, 236);
+    height: 90px;
+}
+.navbar-brand{
+    color: rgb(38, 48, 38);
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+.nav-item a {
+color: rgb(53, 52, 52);
+font-weight: 500;
+}
+.map-container {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button{
+    width: 60px;
+    background-color:darkorange;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+/* Checkbox label styling */
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    cursor: pointer;
+}
+
+/* Hide the default checkbox */
+.custom-checkbox input {
+    display: none;
+}
+
+/* Custom checkbox design */
+.custom-checkbox .checkmark {
+    width: 18px;
+    height: 18px;
+    border: 2px solid #333;
+    border-radius: 3px;
+    margin-right: 10px;
+    position: relative;
+}
+
+/* Checkbox checked state */
+.custom-checkbox input:checked + .checkmark {
+    background-color: #f04f24;
+    border-color: #f04f24;
+}
+
+/* Checkbox tick mark */
+.custom-checkbox input:checked + .checkmark::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+#side_pic{
+    border-radius: 8px;
+}
+/* Footer */
+footer {
+    background-color:  rgb(236, 234, 236);
+    color:black;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px;
+}
+#mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:black;
+    margin-bottom: 30px;
+}
+.ancher a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}

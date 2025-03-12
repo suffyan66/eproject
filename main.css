@@ -6,6 +6,32 @@ body {
 }
 
 /* Navbar styles */
+.navbar1 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white; /* Green background for the navbar */
+}
+
+.nav_heading img {
+    height: 80px;
+    width: 80px;
+    margin-left: 70px;
+}
+.ancher a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 0 10px;
+    background-color: #388E3C; /* Darker green background for links */
+    border-radius: 5px;
+    margin-left: px;
+}
+
+.ancher a:hover {
+    background-color: #45a049; /* Hover effect */
+}
 
 
 /* Hamburger Menu */
