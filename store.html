@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shrek's Juice Franchise</title>
-    <link rel="stylesheet" href="franchising.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="store.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  
+
 </head>
 <body>
-     <!-- Navbar Start -->
+
+
+    <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Shrek Juices</a>
@@ -17,10 +25,10 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="#">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Gallery</a>
@@ -45,7 +53,7 @@
                 <a class="nav-link" href="#">FeedBack</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact us</a>
+                <a class="nav-link" href="#">Contact us</a>
               </li>
               
             </ul>
@@ -53,44 +61,31 @@
         </div>
       </nav>
        <!-- Navbar End -->
-        <section id="franchise">
-            <h2>Start Your Franchise with Shrek's Juice</h2>
-            <p>Join the Shrek's Juice family and start your own juice bar business. We provide you with everything you need to succeed!</p>
-            
-            <div class="franchise-info">
-                <h3>Why Choose Us?</h3>
-                <ul>
-                    <li>Proven Business Model</li>
-                    <li>High-Quality Products</li>
-                    <li>Ongoing Support and Training</li>
-                    <li>Marketing Assistance</li>
-                </ul>
-            </div>
+       <section id="contact">
+        
     
-            <div class="franchise-form">
-                <h3>Franchise Application</h3>
-                <form action="submit_franchise.php" method="post">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" required>
-                    
-                    <label for="email">Your Email</label>
-                    <input type="email" id="email" name="email" required>
-                    
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" id="phone" name="phone" required>
-                    
-                    <label for="location">Desired Location</label>
-                    <input type="text" id="location" name="location" required>
-                    
-                    <label for="investment">Investment Amount</label>
-                    <input type="number" id="investment" name="investment" required>
-                    
-                    <button type="submit">Submit Application</button>
-                </form>
-            </div>
-        </section>
-        <!-- foter -->
-        <footer>
+        <!-- Store Location -->
+        <div id="store-location">
+          <h2>Our Store Location</h2>
+          <p>Shrek Juice, Metro star Gate, Karachi, Pakistan</p>
+    
+          <!-- Google Maps Embed -->
+          
+        <div class="map-container">
+       
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.302956184754!2d67.14949697509363!3d24.88764574416975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33999ec8ecc87%3A0xda9cc5004c86e53f!2sMETRO%20Stargate%20Store%2C%20Karachi!5e0!3m2!1sen!2s!4v1741738918683!5m2!1sen!2s" width="80%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                
+            </iframe>
+        </div>
+        <!-- Contact Information -->
+        <div id="contact-info">
+          <p><strong>Phone:</strong> +92 123 456789</p>
+          <p><strong>Email:</strong> info@shrekjuice.com</p>
+        </div>
+      </section>
+      
+         <!-- foter -->
+         <footer>
             <p>&copy; 2025 Shrek Juice | All Rights Reserved</p>
             <a  href="mailto:ansarisuffyan@gmail.com" id="mail"><p>Follow us on social media!</p><i class="fa-regular fa-envelope"></i>Email</a>
             <section class="ancher">
@@ -106,4 +101,3 @@
 </body>
 <script src="app.js"></script>
 </html>
-       

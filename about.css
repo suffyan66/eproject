@@ -69,12 +69,13 @@ font-weight: 500;
 
 }
 .first_p{
-    
+    margin-top: 10px;
     font-size:1rem ;
 }
 .first_h{
     font-size: 2rem;
-    margin-left: 30px;
+    margin-left: 30px; 
+    margin-top: 20px;
 }
 .second img{
     height: 100px;
@@ -113,6 +114,16 @@ font-weight: 500;
     font-size: 1.3rem;
   
 
+}
+.card-title{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.card-text{
+    margin-top: 30px;
+    font-size: 1rem;
 }
 /* Footer */
 footer {
