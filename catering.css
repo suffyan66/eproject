@@ -1,0 +1,322 @@
+nav{
+    /* background-color: rgb(236, 234, 236); */
+    background-color: #92df95;
+    height: 90px;
+}
+.navbar-brand{
+    color: rgb(38, 48, 38);
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+.nav-item a {
+color: rgb(53, 52, 52);
+font-weight: 500;
+}
+/* Footer */
+footer {
+    background-color:  rgb(236, 234, 236);
+    color:black;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Special Deals Section */
+.special-deals {
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.special-deals h3 {
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.deal {
+    background-color: #e0f7e0;
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.deal h4 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.deal p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.deal button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.deal button:hover {
+    background-color: #45a049;
+}
+* Section Styles */
+section {
+    padding: 30px;
+    margin: 20px 0;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+
+.catering_pic{
+    height: 800px;
+    width: 100%;
+}
+/* Background Section */
+.background-section {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    background-image: url('images/Banner.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Overlay to darken the background */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  
+    text-align: center;
+    color: white; /* Text color */
+    padding: 20px;
+}
+
+.catering_one {
+    margin-top: 250px;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4CAF50; 
+   font-family: 'Great Vibes', cursive;
+  
+}
+
+.catering_two {
+    font-size: 5rem;
+    font-style: italic;
+    color:white;
+font-family: 'Playfair Display', serif;
+}
+.tagline {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color: #4CAF50;
+    /* color: #d8a372; */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+}
+
+.main-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.sub-text {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgba(58, 29, 29, 0.7);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+.bullet-points {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(56, 26, 26, 0.8);
+    margin-top: 10px;
+}
+
+.bullet-points span {
+    color: #d8a372;
+}
+.section_main{
+    text-align: center;
+    margin-top: 50px;
+}
+.catering-intro h1{
+    color: #4CAF50;
+    font-family:'Great Vibes', cursive ;
+    text-align: center;
+    font-size:4rem;
+    font-weight:500;
+}
+.catering-intro li {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1em;
+    color: #333;
+    
+     margin-left: 270px;
+     margin-top: 20px
+     
+     
+}
+
+/* Catering Menu Styles */
+.catering-menu h3{
+    color: #4CAF50;
+    text-align: center;
+    font-size: 4rem ;
+    font-family: 'Great Vibes', cursive;
+    font-weight:500;
+} 
+.catering-menu ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.catering-menu li {
+    background-color: #e0f7e0;
+    margin: 8px 0;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 1.2em;
+}
+
+/* Form Styles */
+.catering-contact form {
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+}
+.catering-contact h3{
+    text-align: center;
+    color: #4CAF50;
+    font-size: 4rem ;
+    font-family: 'Great Vibes', cursive;
+    font-weight:500;
+}
+.catering-contact label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.catering-contact input, .catering-contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.catering-contact button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.catering-contact button:hover {
+    background-color: #45a049;
+}
+.first{
+    
+
+}
+.first img{
+    height: 250px;
+    width: 250px;
+  
+border-radius: 15px;
+}
+.first_p{
+    margin-top: 10px;
+    font-size:1rem ;
+}
+.first_h{
+    font-family:'Playfair Display', serif ;
+    color:black;
+    font-size: 2rem;
+  margin-left: 30px;
+    margin-top: 20px;
+}
+.first_vegetable{
+    font-family:'Playfair Display', serif ;
+    color:black;
+    font-size: 2rem;
+  margin-left: 10px;
+    margin-top: 20px;
+}.first_chocolate{
+    font-family:'Playfair Display', serif ;
+    color:black;
+    font-size: 2rem;
+  
+    margin-top: 20px;
+}
+.second img{
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.second{
+   
+   
+}
+.third img{
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+}
+footer p {
+    margin: 5px;
+}
+#mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:black;
+    margin-bottom: 30px;
+}
+.ancher a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
