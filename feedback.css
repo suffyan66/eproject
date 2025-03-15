@@ -1,0 +1,90 @@
+nav{
+    background-color: rgb(236, 234, 236);
+    height: 90px;
+}
+.navbar-brand{
+    color: rgb(38, 48, 38);
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+.nav-item a {
+color: rgb(53, 52, 52);
+font-weight: 500;
+}
+/* nav end */
+/* Form Styles */
+.catering-contact form {
+    text-align: left;
+    width: 50%;
+    margin:  auto;
+    margin-top: 30px;
+    
+}
+.catering-contact h3{
+    text-align: center;
+    color: #4CAF50;
+    font-size: 4rem ;
+    font-family: 'Playfair Display', serif;
+    font-weight:500;
+    margin-top: 50px;
+}
+.catering-contact label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.catering-contact input, .catering-contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.catering-contact button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.catering-contact button:hover {
+    background-color: #45a049;
+}
+.feedback_text{
+    font-size: 1.5rem;
+}
+/* Footer */
+footer {
+    background-color:  rgb(236, 234, 236);
+    color:black;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px;
+}
+#mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:black;
+    margin-bottom: 30px;
+}
+.ancher a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}

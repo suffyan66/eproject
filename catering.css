@@ -36,7 +36,7 @@ footer {
     color: #4CAF50;
     text-align: center;
     margin-bottom: 20px;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 4rem;
     font-weight: 500;
 }
@@ -120,7 +120,7 @@ section {
     font-weight: bold;
     margin-bottom: 10px;
     color: #4CAF50; 
-   font-family: 'Great Vibes', cursive;
+   font-family: 'Playfair Display', serif;
   
 }
 
@@ -131,7 +131,7 @@ section {
 font-family: 'Playfair Display', serif;
 }
 .tagline {
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display', serif;
     font-size: 40px;
     color: #4CAF50;
     /* color: #d8a372; */
@@ -197,7 +197,7 @@ font-family: 'Playfair Display', serif;
     color: #4CAF50;
     text-align: center;
     font-size: 4rem ;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display', serif;
     font-weight:500;
 } 
 .catering-menu ul {
@@ -224,7 +224,7 @@ font-family: 'Playfair Display', serif;
     text-align: center;
     color: #4CAF50;
     font-size: 4rem ;
-    font-family: 'Great Vibes', cursive;
+    font-family: 'Playfair Display', serif;
     font-weight:500;
 }
 .catering-contact label {
