@@ -13,8 +13,13 @@ color: rgb(53, 52, 52);
 font-weight: 500;
 }
 .card-title{
-    font-size: 28px;
+    font-size: 2.5rem;
     font-weight: 700;
+    font-family:'Playfair Display', serif; 
+}
+.card-text{
+    
+    font-size: 1.rem;
 }
 .col:hover{
     box-shadow:rgba(0, 0, 0, 0.3);
@@ -24,9 +29,15 @@ font-weight: 500;
 
 }
 .content1 h1{
-    font-family:'Great Vibes', cursive ;
+    font-family:'Playfair Display', serif  ;
+}
+.content1 h3{ 
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Playfair Display', serif ;
 }
 .content1  {
+    margin-top: 50px;
     position: absolute;
     top: 40%;
     left: 25%;
@@ -42,7 +53,15 @@ font-weight: 500;
     border-radius: 10px;
     height: 300px;
     width: 500px;
+    margin-left: 30px;
 }
+.conetnt2 h1{
+    font-family:'Playfair Display', serif
+}
+.conetnt2 h3{
+    font-family:'Playfair Display', serif   
+}
+
 .content2 {
     position: absolute;
     top: 50%;
@@ -59,7 +78,12 @@ font-weight: 500;
     height: 300px;
     width: 500px;
 }
-
+.content3 h1{
+    font-family:'Playfair Display', serif ;
+}
+.content3 h3{
+    font-family:'Playfair Display', serif ;
+}
 .content3 {
     position: absolute;
     top: 50%;
@@ -74,7 +98,8 @@ font-weight: 500;
     /* background: rgba(0, 0, 0, 0.5); Semi-transparent background */
     border-radius: 10px;
     height: 300px;
-    width: 500px;
+    width: 500px; 
+    margin-left: 30px;
 }
 
 /* Font style for the first slide */
@@ -90,6 +115,56 @@ font-weight: 500;
 /* Font style for the third slide */
 .font-style-3 .content {
     font-family: 'Georgia', serif;
+}
+.client_review h1{
+    font-family:'Playfair Display', serif ;
+    text-align: center;
+    font-size: 3.5rem;
+
+}
+.client_review{
+   
+margin-top: 80px;
+}
+.first{
+  
+    text-align: center;
+}
+.first img{
+    height: 300px;
+    width: 300px;
+    border-radius:8px;
+
+}
+.first_p{
+    margin-top: 10px;
+    font-size:1rem ;
+   
+}
+.first_h{
+    font-size: 2rem;
+    font-family:'Playfair Display', serif;
+    margin-top: 20px;
+}
+.second img{
+    height: 300px;
+    width: 300px;
+    border-radius:8px;
+ 
+}
+
+.second{
+ 
+   text-align: center;
+}
+.third img{
+    height: 300px;
+    width: 300px;
+    border-radius:8px;
+}
+.third{
+    
+    text-align: center;
 }
 /* Footer */
 footer {

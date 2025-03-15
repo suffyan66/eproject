@@ -1,6 +1,5 @@
 nav{
-    /* background-color: rgb(236, 234, 236); */
-    background-color: #92df95;
+    background-color: rgb(236, 234, 236);
     height: 90px;
 }
 .navbar-brand{
@@ -26,14 +25,14 @@ footer {
 /* Special Deals Section */
 .special-deals {
     padding: 30px;
-    background-color: #f9f9f9;
+    background-color: #638b86;
     border-radius: 8px;
     margin-top: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .special-deals h3 {
-    color: #4CAF50;
+    color: black;
     text-align: center;
     margin-bottom: 20px;
     font-family: 'Playfair Display', serif;
@@ -42,7 +41,7 @@ footer {
 }
 
 .deal {
-    background-color: #e0f7e0;
+    background-color: #3e6175;
     margin: 15px 0;
     padding: 20px;
     border-radius: 6px;
@@ -51,17 +50,17 @@ footer {
 
 .deal h4 {
     font-size: 1.5em;
-    color: #333;
+    color:black;
 }
 
 .deal p {
     font-size: 1.2em;
-    color: #666;
+    color: black;
 }
 
 .deal button {
-    background-color: #4CAF50;
-    color: white;
+    background-color: rgb(81, 123, 179);
+    color:black;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
@@ -71,7 +70,7 @@ footer {
 }
 
 .deal button:hover {
-    background-color: #45a049;
+    background-color: rgb(48, 84, 124);
 }
 * Section Styles */
 section {
@@ -92,7 +91,7 @@ section {
 .background-section {
     position: relative;
     height: 100vh; /* Full viewport height */
-    background-image: url('images/Banner.jpg'); /* Replace with your image URL */
+    background-image: url('images/vegetable\ and\ fruits.jpg'); /* Replace with your image URL */
     background-size: cover;
     background-position: center;
     display: flex;
@@ -119,7 +118,7 @@ section {
     font-size: 5rem;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #4CAF50; 
+    color: black; 
    font-family: 'Playfair Display', serif;
   
 }
@@ -133,7 +132,7 @@ font-family: 'Playfair Display', serif;
 .tagline {
     font-family: 'Playfair Display', serif;
     font-size: 40px;
-    color: #4CAF50;
+    color:#d8a372;
     /* color: #d8a372; */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     margin-bottom: 10px;
@@ -175,14 +174,14 @@ font-family: 'Playfair Display', serif;
     margin-top: 50px;
 }
 .catering-intro h1{
-    color: #4CAF50;
-    font-family:'Great Vibes', cursive ;
+    color:black;
+    font-family: 'Playfair Display', serif ;
     text-align: center;
     font-size:4rem;
     font-weight:500;
 }
 .catering-intro li {
-    font-family: 'Playfair Display', serif;
+    font-family:#d8a372;
     font-size: 1.1em;
     color: #333;
     
@@ -194,7 +193,7 @@ font-family: 'Playfair Display', serif;
 
 /* Catering Menu Styles */
 .catering-menu h3{
-    color: #4CAF50;
+    color: black;
     text-align: center;
     font-size: 4rem ;
     font-family: 'Playfair Display', serif;
@@ -222,7 +221,7 @@ font-family: 'Playfair Display', serif;
 }
 .catering-contact h3{
     text-align: center;
-    color: #4CAF50;
+    color:black;
     font-size: 4rem ;
     font-family: 'Playfair Display', serif;
     font-weight:500;
