@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrek Juice Buy Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            height: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .juice-img {
+            width: 100%;
+            max-width: 300px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+        h2 {
+            color: #333;
+            font-size: 2.5rem;
+        }
+        p{
+            font-size: 1.1rem;
+        }
+        .price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #4CAF50;
+            margin: 10px 0;
+        }
+        .quantity-controls {
+            margin: 20px 0;
+        }
+        .quantity-controls button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        .quantity-controls button:hover {
+            background-color: #45a049;
+        }
+        .quantity {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0 10px;
+        }
+        .buy-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .buy-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+     
+        <h2>Shrek Juice</h2>
+        
+        <p>This is the best refreshing juice that brings you all the green power you need. Made with natural ingredients, Shrek Juice is the drink for all ages!</p>
+        <h4>"Free Delivery for Orders Over $20!</h4>
+            <h4> "100% Organic and Natural Ingredients!"</h4>
+            <h4>"Satisfaction Guaranteed!"</h4>
+        <div class="price">$9.99</div>
+
+        <!-- Quantity Control -->
+        <div class="quantity-controls">
+            <button onclick="decrement()">-</button>
+            <span class="quantity" id="quantity">1</span>
+            <button onclick="increment()">+</button>
+        </div>
+
+        <!-- Buy Now Button -->
+        <button class="buy-button" onclick="buyNow()">Buy Now</button>
+    </div>
+
+    <script>
+        let quantity = 1;
+
+        // Function to increment the quantity
+        function increment() {
+            quantity++;
+            document.getElementById("quantity").innerText = quantity;
+        }
+
+        // Function to decrement the quantity
+        function decrement() {
+            if (quantity > 1) {
+                quantity--;
+                document.getElementById("quantity").innerText = quantity;
+            }
+        }
+
+        // Function to handle "Buy Now" action
+        function buyNow() {
+            // Show an alert with the quantity added to the cart
+            alert(`You have added ${quantity} Shrek Juice(s) to your cart.`);
+
+            // Remove the redirection so no page change happens after alert
+            // Uncomment the following line if you want to redirect after alert
+            // window.location.href = "checkout-page.html";  // This will redirect to the checkout page
+        }
+    </script>
+
+</body>
+</html>
+

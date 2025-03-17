@@ -72,11 +72,11 @@
 <!-- next -->
  <div class="col-6 col-sm-6 col-md-6 col-lg-6 ">
     
-        <div class="card-body ms- mt-5 ">
+        <div class="card-body ms-5 mt-5 ">
           <h5 class="card-title fs-1">Get in touch</h5>
           <p class="card-text fs-6">Non consectetur a erat nam at lectus. Orci dapibus ultrices in iaculis. Venenatis lectus magna fringilla purus non. 
           </p>
-         <form class="main_form">
+         <form class="main_form" id="contact-form">
             <input type="text" name="name" placeholder="Full Name" required pattern="[a-z A-z]{3,10}" title="alphabets only" id="name_text">
             <div class="title">
               Enter your Name 
@@ -98,20 +98,79 @@
       
  </div>
 </div></div>
-     <!-- foter -->
-    <footer>
-      <p>&copy; 2025 Shrek Juice | All Rights Reserved</p>
-      <a  href="mailto:ansarisuffyan@gmail.com" id="mail"><p>Follow us on social media!</p><i class="fa-regular fa-envelope"></i>Email</a>
-      <section class="ancher">
-          <a href="fruits.html">Store Location</a>
-          <a href="vegetables.html">franchising</a>
-          <a href="smoothies.html">Catering</a>
-          <a href="fruits.jpg">Contact</a>
-          <a href="fruits.jpg">feedback</a>
-          <a href="fruits.jpg">About us</a>
+      <!-- foter -->
+      <footer>
+        <p>&copy; 2025 Shrek Juice | All Rights Reserved</p>
+        <a  href="mailto:ansarisuffyan@gmail.com" id="mail"><p>Follow us on social media!</p><i class="fa-regular fa-envelope"></i>Email</a>
+        <div class="contaoner">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
+               <section class="ancher">
+                
+              <a href="store.html">Store Location</a>
+              <a href="frnachising.html">franchising</a>
+              <a href="catering.html">Catering</a>
+              <a href="contact.html">Contact</a>
+              <a href="feedback.html">feedback</a>
+              <a href="about.html">About us</a>
+             
+              
+          </section></div>
+            <!-- next -->
+             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+              <section class="ancher">
+              <a href="fruits.html">Fruits juice</a>
           
-      </section>
-  </footer>
+              <a href="vegetables.html">Vegetable juice</a>
+              
+              <a href="smoothies.html">Smoothies</a>
+              
+              <a href="fruits.jpg">MockTails</a>
+              
+              <a href="fruits.jpg">Protein shake</a>
+            
+              <a href="fruits.jpg">Chocolate juice</a></div>
+            </section>
+             <!-- next -->
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <section class="ancher">
+                  <a href="fruits.html">FaceBook</a>
+          
+                  <a href="vegetables.html">instagram</a>
+                  
+                  <a href="smoothies.html">Twiter</a>
+                  
+                  <a href="fruits.jpg">YouTube</a>
+                  
+                  <a href="fruits.jpg">Protein shake</a>
+                
+                  <a href="fruits.jpg">Chocolate juice</a></div>
+                </section>
+              </div>
+          </div>
+        </div>
+       
+      
+
+          
+          
+          
+     
+    </footer>
 </body>
+<script>
+ 
+  const form = document.getElementById('contact-form');
+  const checkbox = document.getElementById('checkbox');
+
+
+  form.addEventListener('submit', function(event) {
+    
+    if (!checkbox.checked) {
+      event.preventDefault(); 
+      alert("Please check the checkbox before submitting the form.");
+    }
+  });
+</script>
 <script src="app.js"></script>
 </html>

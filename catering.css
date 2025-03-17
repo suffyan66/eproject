@@ -12,6 +12,50 @@ nav{
 color: rgb(53, 52, 52);
 font-weight: 500;
 }
+.navbar{
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        
+       
+        text-transform: uppercase;
+    
+      }
+      ul li {
+      
+        cursor: pointer;
+       position: relative;
+        overflow: hidden;
+        transition: .3s;
+      }
+      ul li:hover {
+        color: #fff;
+      }
+      ul li:before {
+        content: "";
+        position: absolute;
+        inset: calc(100% - 3px) 0 0 0; /* 3px = the thickness */
+        background: #247046; /* the color */
+        scale: 0 1;
+        transition: .3s, translate 0s .3s;
+      }
+      ul:hover li:before {
+        scale: 1;
+      }
+      ul li:hover:before {
+        translate: 0;
+        transition: .3s;
+      }
+      ul:hover li:has(~ li:hover):before {
+        translate: 100% 0;
+        transition: .2s .2s,scale 0s .4s;
+      }
+      ul:hover li:hover ~ li:before {
+        translate: -100% 0;
+        transition: .2s .2s,scale 0s .4s;
+      }
+}
 /* Footer */
 footer {
     background-color:  rgb(236, 234, 236);
@@ -25,7 +69,7 @@ footer {
 /* Special Deals Section */
 .special-deals {
     padding: 30px;
-    background-color: #638b86;
+    background-color: #8fd3cb;
     border-radius: 8px;
     margin-top: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -41,7 +85,7 @@ footer {
 }
 
 .deal {
-    background-color: #3e6175;
+    background-color: #6aa9ce;
     margin: 15px 0;
     padding: 20px;
     border-radius: 6px;
@@ -59,7 +103,7 @@ footer {
 }
 
 .deal button {
-    background-color: rgb(81, 123, 179);
+    background-color: rgb(123, 190, 202);
     color:black;
     padding: 10px 20px;
     border: none;
@@ -90,8 +134,8 @@ section {
 /* Background Section */
 .background-section {
     position: relative;
-    height: 100vh; /* Full viewport height */
-    background-image: url('images/vegetable\ and\ fruits.jpg'); /* Replace with your image URL */
+    height: 100vh; 
+    background-image: url('juice\ catering.webp'); 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -99,17 +143,17 @@ section {
     align-items: center;
 }
 
-/* Overlay to darken the background */
+
 .overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    background-color: rgba(0, 0, 0, 0.5); 
   
     text-align: center;
-    color: white; /* Text color */
+    color: white; 
     padding: 20px;
 }
 
@@ -118,7 +162,7 @@ section {
     font-size: 5rem;
     font-weight: bold;
     margin-bottom: 10px;
-    color: black; 
+    color: rgb(202, 211, 199); 
    font-family: 'Playfair Display', serif;
   
 }
@@ -126,7 +170,7 @@ section {
 .catering_two {
     font-size: 5rem;
     font-style: italic;
-    color:white;
+    color:rgb(228, 231, 226);
 font-family: 'Playfair Display', serif;
 }
 .tagline {
@@ -261,8 +305,17 @@ font-family: 'Playfair Display', serif;
 .first img{
     height: 250px;
     width: 250px;
-  
+    
+        transition: transform 0.3s ease-in-out;
+    
+    
+    
+     
+    
 border-radius: 15px;
+}
+.first img:hover{
+    transform: scale(1.1);
 }
 .first_p{
     margin-top: 10px;
@@ -292,16 +345,23 @@ border-radius: 15px;
     height: 250px;
     width: 250px;
     border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+   
 }
 
-.second{
-   
-   
+
+.second img:hover{
+    transform: scale(1.1);
 }
 .third img{
     height: 250px;
     width: 250px;
     border-radius: 15px;
+    transition: transform 0.3s ease-in-out;
+
+}
+.third img:hover{
+    transform: scale(1.1);
 }
 footer p {
     margin: 5px;
@@ -315,6 +375,7 @@ footer p {
     margin-bottom: 30px;
 }
 .ancher a{
+    display: block;
     text-decoration: none;
     color: black;
     margin-left: 20px;

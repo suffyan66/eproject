@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Deals</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            font-size: 2em;
+        }
+        .deal-of-the-month {
+            background-color: #f8d7da;
+            border-left: 5px solid #dc3545;
+            margin-top: 20px;
+            padding: 20px;
+            font-size: 1.5em;
+        }
+        .order-now {
+            background-color: #28a745;
+            color: white;
+            font-size: 1.2em;
+            padding: 15px 30px;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .order-now:hover {
+            background-color: #218838;
+        }
+    </style>
+    <script>
+        function showAlert() {
+            alert("Thank you for clicking 'Order Now'! Please proceed with your order.");
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            Special Deals
+        </div>
+        
+        <div class="deal-of-the-month">
+            <h2>Deal of the Month: Green Mango Smoothie</h2>
+            <p>Get a 20% discount on Green Mango Smoothie for all catering orders this month!</p>
+        </div>
+
+        <button class="order-now" onclick="showAlert()">Order Now</button>
+    </div>
+</body>
+</html>

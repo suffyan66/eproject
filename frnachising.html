@@ -9,11 +9,15 @@
     <link rel="stylesheet" href="franchising.css">
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-  
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <!-- aos -->
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"> -->
 
 </head>
 <body>
-     <!-- Navbar Start -->
+
+
+    <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Shrek Juices</a>
@@ -29,7 +33,7 @@
                 <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="file:///C:/Users/dell/3D%20Objects/eproject/frnachising.html">Franchising</a>
+                <a class="nav-link" href="frnachising.html">Franchising</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -48,7 +52,7 @@
                 <a class="nav-link" href="catering.html">Catering</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">FeedBack</a>
+                <a class="nav-link" href="feedback.html">FeedBack</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="store.html">Store Location</a>
@@ -62,55 +66,114 @@
         </div>
       </nav>
        <!-- Navbar End -->
-        <section id="franchise">
-            <h2>Start Your Franchise with Shrek's Juice</h2>
-            <p>Join the Shrek's Juice family and start your own juice bar business. We provide you with everything you need to succeed!</p>
-            
-            <div class="franchise-info">
-                <h3>Why Choose Us?</h3>
-                <ul>
-                    <li>Proven Business Model</li>
-                    <li>High-Quality Products</li>
-                    <li>Ongoing Support and Training</li>
-                    <li>Marketing Assistance</li>
-                </ul>
-            </div>
-    
-            <div class="franchise-form">
-                <h3>Franchise Application</h3>
-                <form action="submit_franchise.php" method="post">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" required>
-                    
-                    <label for="email">Your Email</label>
-                    <input type="email" id="email" name="email" required>
-                    
-                    <label for="phone">Phone Number</label>
-                    <input type="tel" id="phone" name="phone" required>
-                    
-                    <label for="location">Desired Location</label>
-                    <input type="text" id="location" name="location" required>
-                    
-                    <label for="investment">Investment Amount</label>
-                    <input type="number" id="investment" name="investment" required>
-                    
-                    <button type="submit">Submit Application</button>
-                </form>
-            </div>
-        </section>
+      
+       
+    <!-- Main Franchising Section -->
+    <section class="franchising-section">
+      <div class="container">
+          <h1>Join the Shrek's Juice Franchise Family</h1>
+          <p>Become a part of a successful and rapidly growing juice brand. At Shrek's Juice, we offer high-quality fresh juices, smoothies, and snacks that customers love. If you're passionate about healthy living and entrepreneurship, franchising with us could be the perfect opportunity.</p>
+
+          <h2>Why Franchise With Us?</h2>
+          <ul>
+              <li>Established Brand with a Loyal Customer Base</li>
+              <li>Comprehensive Training and Ongoing Support</li>
+              <li>Exclusive Territory Rights</li>
+              <li>High Profit Potential</li>
+              <li>Cutting-Edge Marketing Strategies</li>
+          </ul>
+
+          <h2>Franchise Requirements</h2>
+          <p>To become a Shrek's Juice franchisee, you must meet the following criteria:</p>
+          <ul>
+              <li>Minimum investment required: $50,000</li>
+              <li>Passion for healthy living and customer service</li>
+              <li>Ability to follow our proven business model</li>
+              <li>Commitment to quality and consistency</li>
+          </ul>
+
+          <h2>How to Get Started</h2>
+          <p>Fill out the form below to express your interest, and we will get in touch with you to discuss next steps.</p>
+
+          <!-- Franchise Interest Form -->
+          <form action="#" method="POST" class="franchise-form">
+              <label for="name">Full Name:</label>
+              <input type="text" id="name" name="name" required>
+
+              <label for="email">Email Address:</label>
+              <input type="email" id="email" name="email" required>
+
+              <label for="phone">Phone Number:</label>
+              <input type="text" id="phone" name="phone" required>
+
+              <label for="location">Preferred Location:</label>
+              <input type="text" id="location" name="location" required>
+
+              <button type="submit">Submit Your Application</button>
+          </form>
+      </div>
+  </section>
+
+  <!-- Footer Section -->
+ 
         <!-- foter -->
         <footer>
             <p>&copy; 2025 Shrek Juice | All Rights Reserved</p>
             <a  href="mailto:ansarisuffyan@gmail.com" id="mail"><p>Follow us on social media!</p><i class="fa-regular fa-envelope"></i>Email</a>
-            <section class="ancher">
-                <a href="fruits.html">Store Location</a>
-                <a href="vegetables.html">franchising</a>
-                <a href="smoothies.html">Catering</a>
-                <a href="fruits.jpg">Contact</a>
-                <a href="fruits.jpg">feedback</a>
-                <a href="fruits.jpg">About us</a>
+            <div class="contaoner">
+              <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
+                   <section class="ancher">
+                    
+                  <a href="store.html">Store Location</a>
+                  <a href="frnachising.html">franchising</a>
+                  <a href="catering.html">Catering</a>
+                  <a href="contact.html">Contact</a>
+                  <a href="feedback.html">feedback</a>
+                  <a href="about.html">About us</a>
+                 
+                  
+              </section></div>
+                <!-- next -->
+                 <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                  <section class="ancher">
+                  <a href="fruits.html">Fruits juice</a>
+              
+                  <a href="vegetables.html">Vegetable juice</a>
+                  
+                  <a href="smoothies.html">Smoothies</a>
+                  
+                  <a href="fruits.jpg">MockTails</a>
+                  
+                  <a href="fruits.jpg">Protein shake</a>
                 
-            </section>
+                  <a href="fruits.jpg">Chocolate juice</a></div>
+                </section>
+                 <!-- next -->
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <section class="ancher">
+                      <a href="fruits.html">FaceBook</a>
+              
+                      <a href="vegetables.html">instagram</a>
+                      
+                      <a href="smoothies.html">Twiter</a>
+                      
+                      <a href="fruits.jpg">YouTube</a>
+                      
+                      <a href="fruits.jpg">Protein shake</a>
+                    
+                      <a href="fruits.jpg">Chocolate juice</a></div>
+                    </section>
+                  </div>
+              </div>
+            </div>
+           
+          
+
+              
+              
+              
+         
         </footer>
 </body>
 <script src="app.js"></script>

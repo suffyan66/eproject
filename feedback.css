@@ -12,6 +12,7 @@ nav{
 color: rgb(53, 52, 52);
 font-weight: 500;
 }
+
 /* nav end */
 /* Form Styles */
 .catering-contact form {
@@ -23,7 +24,7 @@ font-weight: 500;
 }
 .catering-contact h3{
     text-align: center;
-    color: #4CAF50;
+    color:black;
     font-size: 4rem ;
     font-family: 'Playfair Display', serif;
     font-weight:500;
@@ -34,7 +35,10 @@ font-weight: 500;
     margin-bottom: 5px;
     display: block;
 }
-
+#message{
+    height:250px;
+    width: 100%;
+}
 .catering-contact input, .catering-contact textarea {
     width: 100%;
     padding: 10px;
@@ -45,7 +49,7 @@ font-weight: 500;
 }
 
 .catering-contact button {
-    background-color: #4CAF50;
+    background-color: #627dad;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -56,35 +60,40 @@ font-weight: 500;
 }
 
 .catering-contact button:hover {
-    background-color: #45a049;
+    background-color: #213475;
 }
 .feedback_text{
     font-size: 1.5rem;
 }
+.main_div{
+  background-color: #9eccd8;
+}
+
 /* Footer */
 footer {
-    background-color:  rgb(236, 234, 236);
-    color:black;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+  background-color:  rgb(236, 234, 236);
+  color:black;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 footer p {
-    margin: 5px;
+  margin: 5px;
 }
 #mail{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color:black;
-    margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color:black;
+  margin-bottom: 30px;
 }
 .ancher a{
-    text-decoration: none;
-    color: black;
-    margin-left: 20px;
+  display: block;
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
 }
