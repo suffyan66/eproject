@@ -11,6 +11,7 @@ nav{
 .nav-item a {
 color: rgb(53, 52, 52);
 font-weight: 500;
+font-size: 1.1rem;
 }
 
 
@@ -22,21 +23,21 @@ font-weight: 500;
 }
 
 .franchising-section h1 {
-    font-size: 3.5em;
+    font-size: 2.5em;
     margin-bottom: 20px;
     font-family:'Playfair Display', serif ;
      
 }
 
 .franchising-section h2 {
-    font-size: 3em;
+    font-size: 2.5em;
     margin-top: 20px;
     margin-bottom: 10px;
     font-family:'Playfair Display', serif ;  
 }
 
 .franchising-section p {
-    font-size: 1.1em;
+    font-size: 1.em;
     margin-bottom: 20px;
 }
 

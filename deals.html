@@ -3,7 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Special Deals</title>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -11,6 +16,21 @@
             margin: 0;
             padding: 0;
         }
+        nav{
+    background-color: rgb(236, 234, 236);
+    height: 90px;
+}
+.navbar-brand{
+    color: rgb(38, 48, 38);
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+.nav-item a {
+color: rgb(53, 52, 52);
+font-weight: 500;
+font-size: 1.1rem;
+}
         .container {
             width: 80%;
             margin: 0 auto;
@@ -32,16 +52,46 @@
         }
         .order-now {
             background-color: #28a745;
-            color: white;
+            color:white;
             font-size: 1.2em;
-            padding: 15px 30px;
+            /* padding: 15px 30px; */
             border: none;
             cursor: pointer;
             margin-top: 20px;
+            width: 130px;
+            height: 50px;
         }
         .order-now:hover {
             background-color: #218838;
         }
+        /* Footer */
+footer {
+    background-color:  rgb(236, 234, 236);
+    color:black;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px;
+}
+#mail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:black;
+    margin-bottom: 30px;
+}
+.ancher a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
     </style>
     <script>
         function showAlert() {
@@ -50,6 +100,55 @@
     </script>
 </head>
 <body>
+     <!-- Navbar Start -->
+     <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Shrek Juices</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="frnachising.html">Franchising</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Fruit Juice</a></li>
+                  <li><a class="dropdown-item" href="#">Vegetables Juice</a></li>
+                  <li><a class="dropdown-item" href="#">Mocktails</a></li>
+                  <li><a class="dropdown-item" href="#">Smoothies</a></li>
+                  <li><a class="dropdown-item" href="#">Protein Shake</a></li>
+                  <li><a class="dropdown-item" href="#">Choclate Juices</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="catering.html">Catering</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="feedback.html">FeedBack</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="store.html">Store Location</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact us</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+       <!-- Navbar End -->
     <div class="container">
         <div class="header">
             Special Deals
@@ -58,9 +157,69 @@
         <div class="deal-of-the-month">
             <h2>Deal of the Month: Green Mango Smoothie</h2>
             <p>Get a 20% discount on Green Mango Smoothie for all catering orders this month!</p>
+            <img src="images/smoothies.jpeg" alt="">
         </div>
-
+        
         <button class="order-now" onclick="showAlert()">Order Now</button>
     </div>
+     <!-- foter -->
+     <footer>
+        <p>&copy; 2025 Shrek Juice | All Rights Reserved</p>
+        <a  href="mailto:ansarisuffyan@gmail.com" id="mail"><p>Follow us on social media!</p><i class="fa-regular fa-envelope"></i>Email</a>
+        <div class="contaoner">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 ">
+               <section class="ancher">
+                
+              <a href="store.html">Store Location</a>
+              <a href="frnachising.html">franchising</a>
+              <a href="catering.html">Catering</a>
+              <a href="contact.html">Contact</a>
+              <a href="feedback.html">feedback</a>
+              <a href="about.html">About us</a>
+             
+              
+          </section></div>
+            <!-- next -->
+             <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+              <section class="ancher">
+              <a href="fruits.html">Fruits juice</a>
+          
+              <a href="vegetables.html">Vegetable juice</a>
+              
+              <a href="smoothies.html">Smoothies</a>
+              
+              <a href="fruits.jpg">MockTails</a>
+              
+              <a href="fruits.jpg">Protein shake</a>
+            
+              <a href="fruits.jpg">Chocolate juice</a></div>
+            </section>
+             <!-- next -->
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                <section class="ancher">
+                  <a href="fruits.html">FaceBook</a>
+          
+                  <a href="vegetables.html">instagram</a>
+                  
+                  <a href="smoothies.html">Twiter</a>
+                  
+                  <a href="fruits.jpg">YouTube</a>
+                  
+                  <a href="fruits.jpg">Protein shake</a>
+                
+                  <a href="fruits.jpg">Chocolate juice</a></div>
+                </section>
+              </div>
+          </div>
+        </div>
+       
+      
+
+          
+          
+          
+     
+    </footer>
 </body>
 </html>

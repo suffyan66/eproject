@@ -11,6 +11,7 @@ nav{
 .nav-item a {
 color: rgb(53, 52, 52);
 font-weight: 500;
+font-size: 1.1rem;
 }
 
 /* nav end */
@@ -65,8 +66,8 @@ font-weight: 500;
 .feedback_text{
     font-size: 1.5rem;
 }
-.main_div{
-  background-color: #9eccd8;
+body{
+  background-color: #f1f1f1;
 }
 
 /* Footer */
