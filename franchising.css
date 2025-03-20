@@ -14,7 +14,9 @@ font-weight: 500;
 font-size: 1.1rem;
 }
 
-
+.accordion p{
+    font-weight:400;
+}
 /* Main Franchising Section */
 .franchising-section {
     background-color: #fff;

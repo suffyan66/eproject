@@ -94,7 +94,9 @@ form {
     filter: blur(0.5px);
     transition: filter 0.3s ease-in-out;
 }
-
+.checkmark{
+   
+}
 /* Footer */
 footer {
     background-color:  rgb(236, 234, 236);
